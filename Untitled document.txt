@@ -1,0 +1,20 @@
+﻿Requirements of the App:
+This app requires three libraries. They are:
+* Opencv
+* Pytesseract
+* Imutils
+
+
+Opencv:
+        pip install opencv-contrib-python
+
+
+Pytesseract:
+        For this library you first have to download pytesseract on your laptop. Just search tesseract.exe and download pytesseract from there. You then need to just need to input in your code:
+pip install pytesseract
+After this you will have to add the path of the file downloaded:
+        pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files\Tesseract-OCR\\tesseract'
+
+
+Imutils:
+        pip install imutils
